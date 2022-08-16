@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module1Lesson1Drill1</string>
+    <string name="first_name">הכנס שם פרטי</string>
+    <string name="last_name">הכנס שם משפחה</string>
+    <string name="finish">סיום</string>
+</resources>
