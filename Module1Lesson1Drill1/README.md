@@ -2,7 +2,7 @@
 
 In this application I practic about TextView, Button and EditText.
 
-Enter your first name and your last name and then pressing button you will see .
+Enter your first name and your last name and then pressing button you will see ypur full name.
 
 In this application done use with localization: default(English) and Hebrew.  
 
