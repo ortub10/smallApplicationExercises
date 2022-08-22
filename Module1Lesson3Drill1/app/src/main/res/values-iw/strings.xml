@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module1Lesson3Drill1</string>
+    <string name="image_transparency_tv">שקיפות תמונה</string>
+    <string name="image_enlargement_tv">"  הגדלת תמונה"</string>
+    <string name="disappear_picture">להעלים תמונה</string>
+</resources>
