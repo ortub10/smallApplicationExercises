@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module1Lesson3Drill3</string>
+    <string name="red">אדום</string>
+    <string name="blue">כחול</string>
+    <string name="orange">כתום</string>
+    <string name="pink">ורוד</string>
+    <string name="yellow">צהוב</string>
+    <string name="select_txt">בחר צבע רקע</string>
+</resources>

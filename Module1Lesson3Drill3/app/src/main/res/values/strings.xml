@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Module1Lesson3Drill3</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="orange">Orange</string>
+    <string name="pink">Pink</string>
+    <string name="yellow">Yellow</string>
+    <string name="select_txt">Select a background color</string>
+</resources>
