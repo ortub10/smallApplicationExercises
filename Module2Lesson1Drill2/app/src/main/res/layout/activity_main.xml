@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layoutDirection="ltr"
+    android:padding="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@drawable/screen"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/phone_number_tv"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+        <Button
+            android:text="@string/_1"
+            style="@style/number_btn"
+            android:id="@+id/btn_1"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:ignore="NestedWeights" />
+        <Button
+            android:text="@string/_2"
+            style="@style/number_btn"
+            android:id="@+id/btn_2"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+        <Button
+            android:text="@string/_3"
+            style="@style/number_btn"
+            android:id="@+id/btn_3"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+        <Button
+            android:text="@string/_4"
+            style="@style/number_btn"
+            android:id="@+id/btn_4"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:ignore="NestedWeights" />
+        <Button
+            android:text="@string/_5"
+            style="@style/number_btn"
+            android:id="@+id/btn_5"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+        <Button
+
+            android:text="@string/_6"
+            style="@style/number_btn"
+            android:id="@+id/btn_6"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+        <Button
+            android:text="@string/_7"
+            style="@style/number_btn"
+            android:id="@+id/btn_7"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:ignore="NestedWeights" />
+        <Button
+            android:text="@string/_8"
+            style="@style/number_btn"
+            android:id="@+id/btn_8"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+        <Button
+
+            android:text="@string/_9"
+            style="@style/number_btn"
+            android:id="@+id/btn_9"/>
+
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+        <Button
+            android:text="@string/star"
+            style="@style/number_btn"
+            android:id="@+id/btn_star"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:ignore="NestedWeights" />
+        <Button
+            android:text="@string/_0"
+            style="@style/number_btn"
+            android:id="@+id/btn_0"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+        <Button
+
+            android:text="@string/ladder"
+            style="@style/number_btn"
+            android:id="@+id/btn_ladder"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="65"
+            tools:ignore="NestedWeights"
+            android:background="@drawable/dial_btn"
+            android:src="@drawable/ic_baseline_local_phone_24"
+            android:id="@+id/call_btn"
+            android:contentDescription="@null" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:src="@drawable/ic_baseline_backspace_24"
+            android:background="@drawable/number_btn_selector"
+            android:id="@+id/backspace_btn"
+            android:contentDescription="@null" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
