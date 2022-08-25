@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Module2Lesson1Drill1</string>
+    <string name="name_edittext">Enter name</string>
+    <string name="age_edittext">Enter age</string>
+    <string name="phone_edittext">Enter phone number</string>
+
+    <string name="name_textview">Name</string>
+    <string name="age_textview">Age</string>
+    <string name="phone_textview">Phone</string>
+    <string name="send_btn">Send</string>
+    <string name="back_btn">Back</string>
+</resources>
