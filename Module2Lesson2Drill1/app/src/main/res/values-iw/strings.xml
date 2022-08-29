@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module2Lesson2drill1</string>
+    <string name="welcome">ברוך הבא!</string>
+    <string name="enter_contact_details">הכנס פרטי קשר</string>
+    <string name="full_name">שם מלא:</string>
+    <string name="enter_name">הכנס שם מלא</string>
+    <string name="enter_phone_number">"הכנס מספר טלפון "</string>
+    <string name="phone_number">מספר טלפון:</string>
+    <string name="enter_email_address">הכנס כתובת מייל</string>
+    <string name="email_address">כתובת מייל:</string>
+    <string name="home_address">כתובת בית:</string>
+    <string name="enter_home_address">הכנס כתובת בית</string>
+    <string name="enter_web_site">הכנס כתובת אתר</string>
+    <string name="web_site">כתובת אתר:</string>
+    <string name="finished">סיום</string>
+    <string name="please_enter_all_details">אנא הכנס את כל הפרטים</string>
+</resources>

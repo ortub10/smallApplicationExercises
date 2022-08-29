@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Module2Lesson2drill1</string>
+    <string name="welcome">Welcome!</string>
+    <string name="enter_contact_details">Enter contact details</string>
+    <string name="full_name">Full name:</string>
+    <string name="enter_name">Enter full name</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="email_address">Email address:</string>
+    <string name="home_address">Home address:</string>
+    <string name="enter_home_address">Enter home address</string>
+    <string name="enter_web_site">Enter web site</string>
+    <string name="web_site">Web site:</string>
+    <string name="finished">Finished</string>
+    <string name="please_enter_all_details">Please enter all details</string>
+</resources>

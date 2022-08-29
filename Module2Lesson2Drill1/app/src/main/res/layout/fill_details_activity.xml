@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/text_view_design"
+            android:text="@string/full_name"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            style="@style/edit_text_design"
+            android:id="@+id/name_et"
+            android:autofillHints="name"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/text_view_design"
+            android:text="@string/phone_number"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            style="@style/edit_text_design"
+            android:id="@+id/phone_et"
+            android:autofillHints="phone"
+            android:hint="@string/enter_phone_number"
+            android:inputType="phone"
+            tools:ignore="NestedWeights" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/text_view_design"
+            android:text="@string/email_address"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            style="@style/edit_text_design"
+            android:id="@+id/email_et"
+            android:autofillHints="phone"
+            android:hint="@string/enter_email_address"
+            android:inputType="textEmailAddress"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/text_view_design"
+            android:text="@string/home_address"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            style="@style/edit_text_design"
+            android:id="@+id/home_et"
+            android:autofillHints="phone"
+            android:hint="@string/enter_home_address"
+            android:inputType="textWebEditText"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/text_view_design"
+            android:text="@string/web_site"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            style="@style/edit_text_design"
+            android:id="@+id/web_et"
+            android:autofillHints="phone"
+            android:hint="@string/enter_web_site"
+            android:inputType="textWebEditText"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textSize="50sp"
+        android:text="@string/finished"
+        android:id="@+id/finish_btn"/>
+</LinearLayout>

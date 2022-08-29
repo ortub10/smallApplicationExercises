@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/welcome"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/pink"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/enter_contact_details"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        android:id="@+id/start_write_details"/>
+
+</LinearLayout>
