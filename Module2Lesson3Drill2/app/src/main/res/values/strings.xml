@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Module2Lesson3Drill2</string>
+    <string name="say_camera_or_browser">Say \"camera\" or \"browser\"</string>
+    <string name="browser">browser</string>
+    <string name="camera">camera</string>
+    <string name="not_recognized">The command was not recognized</string>
+</resources>

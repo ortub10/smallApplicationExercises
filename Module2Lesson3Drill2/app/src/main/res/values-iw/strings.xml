@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Module2Lesson3Drill2</string>
+    <string name="say_camera_or_browser">אמור \"מצלמה\" או \"דפדפן\"</string>
+    <string name="camera">מצלמה</string>
+    <string name="browser">דפדפן</string>
+    <string name="not_recognized">הפקודה לא זוהתה</string>
+</resources>
