@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module3Lesson1Drill1</string>
+    <string name="enter_name">Enter name</string>
+    <string name="take_picture">Take picture</string>
+    <string name="continue_to">Continue</string>
+    <string name="add">Add</string>
+    <string name="show">Show</string>
+</resources>
