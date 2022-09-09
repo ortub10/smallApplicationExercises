@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0; i < dogs.size(); i++){
                     Dog dogOut = dogs.get(i);
                     TextView dogTv = new TextView(this);
-                    LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 0);
-                    layoutParams.weight=1;
+                    LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
                     dogTv.setLayoutParams(layoutParams);
                     dogTv.setGravity(Gravity.CENTER);
                     dogTv.setTextSize(30);
