@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Module4Lesson1Drill1</string>
+	<string name="first_activity">First Activity</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="third_activity">third Activity</string>
+</resources>
