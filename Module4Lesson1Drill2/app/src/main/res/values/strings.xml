@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Module4Lesson1Drill2</string>
+    <string name="image_1">Image 1</string>
+    <string name="image_2">Image 2</string>
+    <string name="image_3">Image 3</string>
+
+    <string name="chocolate_cake_explain">This is chocolate cake</string>
+    <string name="vanilla_cake_explain">This is vanilla cake</string>
+    <string name="rainbow_cake_explain">This is rainbow cake</string>
+</resources>
