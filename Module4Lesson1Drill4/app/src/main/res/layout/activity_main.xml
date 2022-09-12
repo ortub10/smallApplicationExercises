@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            style="@style/images"
+            android:contentDescription="@string/image_1"
+            android:src="@drawable/chocolate_cake"
+            android:id="@+id/chocolate_cake_img"/>
+
+        <ImageView
+            style="@style/images"
+            android:contentDescription="@string/image_2"
+            android:src="@drawable/vanilla_cake"
+            android:id="@+id/vanilla_cake_img"/>
+
+        <ImageView
+            style="@style/images"
+            android:contentDescription="@string/image_3"
+            android:src="@drawable/rainbow_cake"
+            android:id="@+id/rainbow_cake_img" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/explain_image_chosen"/>
+
+</LinearLayout>
