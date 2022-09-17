@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Module4Lesson2Drill2</string>
+    <string name="choose_background_color">Choose background color</string>
+    <string name="choose_days">Choose days</string>
+    <string name="choose_gender">Choose gender</string>
+</resources>
