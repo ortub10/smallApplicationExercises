@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Module4Lesson2Drill4</string>
+    <string name="choose_start_time">Choose start time</string>
+    <string name="choose_end_time">Choose end time</string>
+    <string name="progress_seconds">Progress Seconds</string>
+</resources>

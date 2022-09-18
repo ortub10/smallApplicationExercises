@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_start_time"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:id="@+id/start_time_btn"/>
+        <TextView
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/start_time_output"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_end_time"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:id="@+id/end_time_btn"/>
+        <TextView
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/end_time_output"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/progress_seconds"
+        android:id="@+id/progress_seconds_btn"/>
+
+</LinearLayout>
