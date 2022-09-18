@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Module4Lesson2Drill3</string>
+    <string name="volume">Volume</string>
+    <string name="please_set_the_volume">Please set the volume</string>
+    <string name="mute">Mute</string>
+    <string name="_0">0</string>
+</resources>
