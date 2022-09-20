@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        style="@style/edit_text_design"
+        android:autofillHints="name"
+        android:hint="@string/enter_dog_name"
+        android:inputType="text"
+        android:id="@+id/name_et_input"/>
+
+    <EditText
+        style="@style/edit_text_design"
+        android:autofillHints="number"
+        android:hint="@string/enter_dog_age"
+        android:inputType="number"
+        android:id="@+id/age_et_input"/>
+
+    <EditText
+        style="@style/edit_text_design"
+        android:autofillHints="name"
+        android:hint="@string/enter_dog_color"
+        android:inputType="text"
+        android:id="@+id/color_et_input"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_dog"
+        android:textAllCaps="false"
+        android:id="@+id/add_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_dogs"
+        android:textAllCaps="false"
+        android:id="@+id/show_btn"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_dog"/>
+
+</LinearLayout>
