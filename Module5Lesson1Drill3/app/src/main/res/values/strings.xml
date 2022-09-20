@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module5Lesson1Drill3</string>
+    <string name="enter_dog_name">Enter dog name</string>
+    <string name="enter_dog_age">Enter dog age</string>
+    <string name="enter_dog_color">Enter dog color</string>
+    <string name="add_dog">Add dog</string>
+    <string name="show_dogs">Show dogs</string>
+</resources>
