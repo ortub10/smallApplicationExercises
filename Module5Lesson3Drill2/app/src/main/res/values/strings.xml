@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Module5Lesson3Drill2</string>
+    <string name="km_driving">km driving</string>
+    <string name="drive">Drive</string>
+    <string name="enter_km">Enter km</string>
+    <string name="fuel_left">Fuel left</string>
+</resources>
