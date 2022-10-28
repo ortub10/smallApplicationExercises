@@ -4,4 +4,4 @@
 Using Thread and
 Handler
 
-<img src = "https://user-images.githubusercontent.com/102150516/198237996-5c88e6f7-ad6d-484c-b396-e92e15c76c87.jpg" witdh = 300>
+<img src = "https://user-images.githubusercontent.com/102150516/198237996-5c88e6f7-ad6d-484c-b396-e92e15c76c87.jpg" width = 300>
